@@ -1,0 +1,9 @@
+# Object files and binaries
+*.d
+*.o
+*.bin
+*.elf
+*.hex
+*.json
+__pycache__/
+.vscode/
