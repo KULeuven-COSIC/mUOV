@@ -24,7 +24,7 @@
 #define _UTILS_HASH2_H_
 
 #include "string.h"
-#include "fips202.h"
+#include "../pqov/utils/fips202.h"
 
 typedef keccak_state hash_ctx;
 

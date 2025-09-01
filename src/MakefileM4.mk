@@ -12,7 +12,7 @@ ARMNONEEABIDIR = /usr/bin
 COMMONDIR = ../common
 
 CRYPTO_SRC = \
-	../pqov/utils/aes128_4r_ffs.c \
+	aes128_4r_ffs.c \
 	B2M.c \
 	blas_masked.c \
 	blas_matrix_masked.c \
@@ -28,7 +28,7 @@ CRYPTO_SRC = \
 	sign_masked.c \
 	utils_hash_masked.c \
 	utils_hash.c \
-	../pqov/utils/utils_prng.c 
+	utils_prng.c 
 	
 all: muov_m4.bin 
 
