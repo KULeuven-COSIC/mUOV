@@ -18,7 +18,7 @@ CRYPTO_SRC = \
 	blas_matrix_masked.c \
 	bool_util.c \
 	fips202_masked.c \
-	../pqov/utils/fips202.c \
+	fips202.c \
 	gf256_util.c \
 	mask_util.c \
 	ov_keypair_masked.c \
